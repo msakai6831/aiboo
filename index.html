@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,14 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 </head>
+
 <body>
 
     <!-- Header -->
@@ -159,7 +164,7 @@
     <section id="start" class="section section-start">
         <div class="container start-box">
             <h2 class="start-title">AIboo!体験を開始します（3分）</h2>
-            
+
             <div class="instruction-box">
                 <p class="instruction-label">以下の内容を、そのまま貼り付けて表示してください。</p>
                 <div class="copy-content">
@@ -169,9 +174,71 @@
                 </div>
             </div>
 
-            <a href="https://chatgpt.com/g/g-696632732a2481918d354c6372cab0e4-aiyou-wan-aiboo-ti-yan-ban-aihou" target="_blank" rel="noopener noreferrer" class="btn-primary start-btn">
+            <a href="https://chatgpt.com/g/g-696632732a2481918d354c6372cab0e4-aiyou-wan-aiboo-ti-yan-ban-aihou"
+                target="_blank" rel="noopener noreferrer" class="btn-primary start-btn">
                 AIboo!体験へ進む<span class="btn-sub">（音声OK）</span>
             </a>
+        </div>
+    </section>
+
+    <!-- Section: Output Example (Appears after instruction) -->
+    <section class="section section-output-example">
+        <div class="container">
+            <h2 class="section-title">アウトプット例（3分）</h2>
+
+            <div class="output-grid">
+                <!-- Left Card: Before -->
+                <div class="output-card">
+                    <div class="output-card-title">Before（そのままの悩み）</div>
+                    <div class="chat-bubble">
+                        それ、私が判断することなんだ、<br>
+                        いちいち聞かないでよ、と思ってしまった。
+                    </div>
+                    <p class="card-sub-note">※うまく説明しなくてOK。話し言葉のままでOK。</p>
+                </div>
+
+                <!-- Right Card: After -->
+                <div class="output-card">
+                    <div class="output-card-title">After（AIboo!の整理）</div>
+                    <h3 class="after-headline">これは、今あなたが考えなくていい案件です。</h3>
+                    <div class="after-list">
+                        <div class="after-list-item">
+                            <span class="check-icon">✅</span> <span>これは今、考えなくていい</span>
+                        </div>
+                        <div class="after-list-item">
+                            <span class="check-icon">✅</span> <span>理由は3つに分ける</span>
+                        </div>
+                        <div class="after-list-item">
+                            <span class="check-icon">✅</span> <span>今やることは1つに絞る</span>
+                        </div>
+                        <div class="after-list-item">
+                            <span class="check-icon">✅</span> <span>返しは“1行テンプレ”で終わらせる</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1 Line Template -->
+            <div class="template-box">
+                <span class="template-title">返しはこれで十分（1行）</span>
+                <span class="template-code">「ここは私が判断します。次からは◯◯基準でお願いします」</span>
+                <span class="template-note">※◯◯例：予算／期限／品質／優先度</span>
+            </div>
+
+            <!-- Note -->
+            <div class="section-footer-note">
+                ※実際の整理はあなたの状況に合わせて、その場で行います。<br>
+                ※答えを押し付けず、判断を軽くする設計です。
+            </div>
+
+            <!-- Small CTA -->
+            <div class="output-cta-wrapper">
+                <a href="https://chatgpt.com/g/g-696632732a2481918d354c6372cab0e4-aiyou-wan-aiboo-ti-yan-ban-aihou"
+                    target="_blank" rel="noopener noreferrer" class="btn-primary btn-small">
+                    AIboo!体験を開始する<span class="btn-sub">（音声OK・3分）</span>
+                </a>
+            </div>
+
         </div>
     </section>
 
@@ -180,4 +247,5 @@
     </footer>
 
 </body>
+
 </html>
