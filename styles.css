@@ -428,6 +428,13 @@ h3 {
     font-size: 1rem;
 }
 
+.start-description {
+    color: var(--text-main);
+    margin-bottom: 30px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
 .start-btn {
     width: 100%;
     max-width: 400px;
